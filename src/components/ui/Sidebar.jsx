@@ -1,10 +1,16 @@
 import React from "react";
 import { X } from "lucide-react";
+import { useShallow } from "zustand/react/shallow";
 import appStore from "../../store/appStore";
 import placesData from "../../data/places.json";
 
 const Sidebar = () => {
-  const { selectedPlaceId, closeSidebar } = appStore();
+  const { selectedPlaceId, closeSidebar } = appStore(
+    useShallow((state) => ({
+      selectedPlaceId: state.selectedPlaceId,
+      closeSidebar: state.closeSidebar,
+    }))
+  );
   const place = placesData.find((p) => p.id === selectedPlaceId);
 
   if (!place) return null;

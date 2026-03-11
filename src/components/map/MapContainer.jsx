@@ -6,7 +6,7 @@ import appStore from "../../store/appStore";
 const MapContainer = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const { openSidebar } = appStore();
+  const openSidebar = appStore((state) => state.openSidebar);
 
   useEffect(() => {
     if (map.current) return;
@@ -30,7 +30,7 @@ const MapContainer = () => {
 
         new maplibregl.Marker({
           element: el,
-          anchor: "bottom", // This aligns the tip to the coordinate
+          anchor: "center", // Align the center of the circle to the coordinate
         })
           .setLngLat(place.coordinates)
           .addTo(map.current);
@@ -42,10 +42,13 @@ const MapContainer = () => {
       });
     });
 
-    return () => map.current?.remove();
+    return () => {
+      map.current?.remove();
+      map.current = null;
+    };
   }, [openSidebar]);
 
-  return <div ref={mapContainer} className="w-full h-full" />;
+  return <div ref={mapContainer} className="absolute inset-0 w-full h-full" />;
 };
 
 export default MapContainer;

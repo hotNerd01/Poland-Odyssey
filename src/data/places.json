@@ -2,36 +2,65 @@
   {
     "id": "warsaw",
     "name": "Warsaw",
-    "coordinates": [21.01168, 52.23205],
+    "coordinates": [
+      21.01753,
+      52.23704
+    ],
     "description": "The capital of Poland, known for its resilient history and the beautifully reconstructed Old Town.",
-    "youtubeId": "4G8_yN68pLw"
+    "youtubeId": "mNX_IbcILr7"
   },
   {
     "id": "krakow",
     "name": "Kraków",
-    "coordinates": [19.94488, 50.06455],
+    "coordinates": [
+      19.9372,
+      50.0614
+    ],
     "description": "The historic royal capital, famous for its medieval architecture and the vast Main Market Square.",
-    "youtubeId": "dQw4w9WgXcQ"
+    "youtubeId": "kXBM9TQQVG"
   },
   {
     "id": "gdansk",
     "name": "Gdańsk",
-    "coordinates": [18.64658, 54.35205],
+    "coordinates": [
+      18.6463,
+      54.3520
+    ],
     "description": "A stunning port city on the Baltic coast, known as the birthplace of the Solidarity movement.",
-    "youtubeId": "4G8_yN68pLw"
+    "youtubeId": "Q_4WttuZZDe"
   },
   {
     "id": "wroclaw",
     "name": "Wrocław",
-    "coordinates": [17.03851, 51.10785],
+    "coordinates": [
+      17.03859,
+      51.10810
+    ],
     "description": "Famous for its hundreds of small dwarf statues and its beautiful Market Square.",
-    "youtubeId": "dQw4w9WgXcQ"
+    "youtubeId": "Wq3aDOBH4QJ"
   },
   {
     "id": "poznan",
     "name": "Poznań",
-    "coordinates": [16.92511, 52.40635],
+    "coordinates": [
+      16.9335,
+      52.4069
+    ],
     "description": "A major center for trade and industry, famous for its Renaissance Old Town.",
-    "youtubeId": "4G8_yN68pLw"
+    "youtubeId": "C6bqIJZlvH8"
+  },
+  {
+    "id": "torun",
+    "name": "Toruń",
+    "coordinates": [18.5981, 53.0137],
+    "description": "A beautiful medieval city known as the birthplace of Nicolaus Copernicus and for its delicious gingerbread.",
+    "youtubeId": "C4Ck94MeVa"
+  },
+  {
+    "id": "zakopane",
+    "name": "Zakopane",
+    "coordinates": [19.9490, 49.2990],
+    "description": "A resort town at the base of the Tatras Mountains, known as the winter capital of Poland.",
+    "youtubeId": "GEwvmXoZTPN"
   }
 ]

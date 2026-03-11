@@ -15,22 +15,25 @@ html,
 
 /* The invisible container MapLibre uses for positioning */
 .marker-container {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* The actual Indigo Pin */
+/* The actual Indigo Pin, now smaller and round */
 .map-marker {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
   background-color: #4f46e5;
   border: 2px solid white;
-  border-radius: 50% 50% 50% 0;
-  /* Keep the rotation, but add a 10px downward shift */
-  transform: rotate(-45deg) translate(-10px, 10px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.map-marker:hover {
+  transform: scale(1.2);
 }
