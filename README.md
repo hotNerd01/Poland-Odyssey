@@ -1,17 +1,17 @@
-# 🇵🇱 Poland Odyssey
+# Poland Odyssey
 
-An interactive exploration of Poland's most iconic cities using high-precision mapping and immersive video content.
+An interactive web application providing an exploration of Poland's most notable cities through high-precision mapping and integrated video content.
 
-## ✨ Features
+## Features
 
-- **High-Precision Mapping:** Custom indigo teardrop markers aligned with 9-decimal coordinate accuracy.
-- **Interactive City Discovery:** Click markers to fly to city centers and unlock historical insights.
-- **Immersive Media:** Integrated YouTube travel guides for each major Polish destination.
-- **Minimalist UI:** Clean, modern interface designed for focus and ease of use.
+- **Precise Geolocation Mapping:** Custom circular markers aligned to exact city center coordinates.
+- **Interactive City Discovery:** Clickable map markers that navigate to city centers and display location-specific historical information.
+- **Integrated Media:** Embedded travel guides and documentary video content for each major Polish destination.
+- **Modern User Interface:** A streamlined, responsive interface designed for usability and optimal performance.
 
-## 🚀 Tech Stack
+## Technology Stack
 
-- **Frontend:** React + Vite
-- **Mapping:** MapLibre GL
+- **Frontend Framework:** React with Vite
+- **Map Rendering:** MapLibre GL
 - **Styling:** Tailwind CSS
 - **State Management:** Zustand
