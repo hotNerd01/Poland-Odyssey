@@ -7,7 +7,7 @@
       52.23704
     ],
     "description": "The capital of Poland, known for its resilient history and the beautifully reconstructed Old Town.",
-    "youtubeId": "mNX_IbcILr7"
+    "youtubeId": "ZLHDgQh461k"
   },
   {
     "id": "krakow",
@@ -17,7 +17,7 @@
       50.0614
     ],
     "description": "The historic royal capital, famous for its medieval architecture and the vast Main Market Square.",
-    "youtubeId": "kXBM9TQQVG"
+    "youtubeId": "cvcxIqpzX6Q"
   },
   {
     "id": "gdansk",
@@ -27,7 +27,7 @@
       54.3520
     ],
     "description": "A stunning port city on the Baltic coast, known as the birthplace of the Solidarity movement.",
-    "youtubeId": "Q_4WttuZZDe"
+    "youtubeId": "V-dAfglgTRY"
   },
   {
     "id": "wroclaw",
@@ -37,7 +37,7 @@
       51.10810
     ],
     "description": "Famous for its hundreds of small dwarf statues and its beautiful Market Square.",
-    "youtubeId": "Wq3aDOBH4QJ"
+    "youtubeId": "rh0Wp294ABU"
   },
   {
     "id": "poznan",
@@ -47,20 +47,21 @@
       52.4069
     ],
     "description": "A major center for trade and industry, famous for its Renaissance Old Town.",
-    "youtubeId": "C6bqIJZlvH8"
+    "youtubeId": "94i3BzYedDM"
   },
   {
     "id": "torun",
     "name": "Toruń",
     "coordinates": [18.5981, 53.0137],
     "description": "A beautiful medieval city known as the birthplace of Nicolaus Copernicus and for its delicious gingerbread.",
-    "youtubeId": "C4Ck94MeVa"
+    "youtubeId": "0UTsw0vXurc"
   },
   {
     "id": "zakopane",
     "name": "Zakopane",
     "coordinates": [19.9490, 49.2990],
     "description": "A resort town at the base of the Tatras Mountains, known as the winter capital of Poland.",
-    "youtubeId": "GEwvmXoZTPN"
+    "youtubeId": "EMDEjbnd5Wk"
   }
+  
 ]
