@@ -62,6 +62,12 @@
     "coordinates": [19.9490, 49.2990],
     "description": "A resort town at the base of the Tatras Mountains, known as the winter capital of Poland.",
     "youtubeId": "EMDEjbnd5Wk"
-  }
-  
+  },
+  {
+    "id": "grunwald_battle",
+    "name": "Battle of the Grunwald",
+    "coordinates": [19.0437, 54.0419],
+    "description": "Home to the stunning Malbork Castle, the largest castle in the world by land area.",
+    "youtubeId": "FrbzgSxGxN0"
+  } 
 ]
